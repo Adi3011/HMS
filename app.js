@@ -29,3 +29,4 @@ app.use("/api", require("./routes/dashboard"));
 app.use("/api", require("./routes/disease"));
 app.use("/api", require("./routes/settings"));
 app.use("/api", require("./routes/rooms"));
+app.use("/api",require("./routes/reception"));
